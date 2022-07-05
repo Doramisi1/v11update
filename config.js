@@ -1,8 +1,7 @@
 let fs = require('fs') 
 let chalk = require('chalk')
 
-global.owner = ['6287898307350','6283802603905','62083195893959','62887435047326','6281368176386' // nomor wa kalian
-  // [number, dia creator/owner?, dia developer?]
+global.owner = ['6287898307350','6283802603905','62083195893959','62887435047326','6281368176386']
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
