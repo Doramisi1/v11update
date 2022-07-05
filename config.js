@@ -1,12 +1,8 @@
 let fs = require('fs') 
 let chalk = require('chalk')
 
-global.owner = [
-  ['6287898307350'],
-  ['6287898307350'],
-  ['6287898307350', 'Owner', true]
+global.owner = ['6287898307350','6283802603905','62083195893959','62887435047326','6281368176386' // nomor wa kalian
   // [number, dia creator/owner?, dia developer?]
-] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
@@ -40,8 +36,8 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = '@penta_bot'
-  var sticker_author = 'penta'
+  var sticker_name = '@sky_bot'
+  var sticker_author = 'sky'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -58,9 +54,9 @@ fs.watchFile(file_exif, () => {
 // Sticker WM
 global.packname = sticker_name
 global.author = sticker_author
-global.wm = '© Gempy'
+global.wm = '© sky'
 
-global.multiplier = 1000 // The higher, The harder levelup
+global.multiplier = 64 // The higher, The harder levelup
 
 global.rpg = {
   emoticon(string) {
